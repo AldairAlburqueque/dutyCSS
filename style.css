@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Caveat&family=Crimson+Text&family=Lexend+Deca:wght@400;700&display=swap');
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;   
+}
+body{
+    Font-size: 15px;
+    margin: 20px;
+    padding: 50px 50px;
+    
+}
+.conteiner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   max-width: 100%;
+  
+}
+svg{
+    margin: 15px;
+}
+.hijo{
+ max-width:  270px;
+ min-width: 270px;
+}
+.hijo:nth-child(1){
+    background-color: var(--Brightorange); 
+    padding: 15px;
+    border-radius: .6rem .6rem 0 0;
+    
+}
+.hijo:nth-child(2){
+    background-color: var(--Darkcyan);
+    padding: 15px; 
+}
+.hijo:nth-child(3){
+    background-color: var(--Verydarkcyan);
+    padding: 15px; 
+    border-radius: 0 0 .6rem .6rem;
+}
+.title{
+    color: white;
+    padding: 1rem;
+    font-size:xx-large;
+    font-family: 'Big Shoulders Display', 'cursive';
+}
+.parrafo{
+    font-size: 12px;
+    color: white;
+    padding: 1rem ;
+    line-height: 1.6rem;
+    letter-spacing: .6px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn{
+    border-radius: 1.4rem;
+    width: 70%;
+    padding: .6rem;
+    margin: 10px 10px 30px;
+    border: none;
+    font-family:'Lexend Deca', sans-serif;
+
+}
+.btn-1{
+   color: var(--Brightorange)
+}
+.btn-2{
+    color: var(--Darkcyan)
+}
+.btn-3{
+    color: var(--Verydarkcyan);
+}
+
+@media (min-width: 800px) {
+    body{
+        Font-size: 15px;
+        margin: 20px;
+        padding: 50px;
+    }
+    .conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+     }
+     .hijo{
+        max-width: 270px;
+        min-width: 270px;
+        
+     }
+    
+     .hijo:nth-child(1){
+        background-color: var(--Brightorange); 
+        padding: 10px;
+        border-radius: .6rem 0 0 .6rem;
+        
+    }
+    .hijo:nth-child(2){
+        background-color: var(--Darkcyan);
+        padding: 10px; 
+    }
+    .hijo:nth-child(3){
+        background-color: var(--Verydarkcyan);
+        padding: 10px; 
+        border-radius: 0 .6rem .6rem 0;
+    }
+    .title{
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    
+}
+.parrafo{
+    color: white;
+    padding: 1rem ;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    
+}
+.btn{
+    border-radius: 1.4rem;
+    width: 70%;
+    padding: .6rem;
+    margin: 10px 10px 30px;
+    border: 1px solid;
+    
+}
+.btn-1{
+    background-color: var(--Brightorange);
+    color: white;
+    border-color: white;
+}
+.btn-2{
+    background-color: var(--Darkcyan);
+    color: white;
+    border-color: white;
+}
+.btn-3{
+    background-color: var(--Verydarkcyan);
+    color: white;
+    border-color: white;
+}
+}
